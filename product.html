@@ -374,55 +374,178 @@
                         <li><a class="menu_category_element" href="#">Tanks</a></li>
                     </ul>
                 </div>
-                <div class="product_menu_category">
-                    <div class="product_menu_category_minibox_left"></div>
-                    <h3 class="header_product_menu_category">brand</h3>
-                    <i class="fa-caret-down"></i>
-                </div>
-                <div class="box_menu_category_list">
-                    <ul class="menu_category_list">
-                        <li><a class="menu_category_element" href="#">Accessories</a></li>
-                        <li><a class="menu_category_element" href="#">Bags</a></li>
-                        <li><a class="menu_category_element" href="#">Denim</a></li>
-                        <li><a class="menu_category_element" href="#">Hoodies & Sweatshirts</a></li>
-                        <li><a class="menu_category_element" href="#">Jackets & Coats</a></li>
-                        <li><a class="menu_category_element" href="#">Pants</a></li>
-                        <li><a class="menu_category_element" href="#">Polos</a></li>
-                        <li><a class="menu_category_element" href="#">Shirts</a></li>
-                        <li><a class="menu_category_element" href="#">Shoes</a></li>
-                        <li><a class="menu_category_element" href="#">Shorts</a></li>
-                        <li><a class="menu_category_element" href="#">Sweaters & Knits</a></li>
-                        <li><a class="menu_category_element" href="#">T-Shirts</a></li>
-                        <li><a class="menu_category_element" href="#">Tanks</a></li>
-                    </ul>
-                </div>
-                <div class="product_menu_category">
-                    <div class="product_menu_category_minibox_left"></div>
-                    <h3 class="header_product_menu_category">Designer</h3>
-                    <i class="fa-caret-down"></i>
-                </div>
-                <div class="box_menu_category_list">
-                    <ul class="menu_category_list">
-                        <li><a class="menu_category_element" href="#">Accessories</a></li>
-                        <li><a class="menu_category_element" href="#">Bags</a></li>
-                        <li><a class="menu_category_element" href="#">Denim</a></li>
-                        <li><a class="menu_category_element" href="#">Hoodies & Sweatshirts</a></li>
-                        <li><a class="menu_category_element" href="#">Jackets & Coats</a></li>
-                        <li><a class="menu_category_element" href="#">Pants</a></li>
-                        <li><a class="menu_category_element" href="#">Polos</a></li>
-                        <li><a class="menu_category_element" href="#">Shirts</a></li>
-                        <li><a class="menu_category_element" href="#">Shoes</a></li>
-                        <li><a class="menu_category_element" href="#">Shorts</a></li>
-                        <li><a class="menu_category_element" href="#">Sweaters & Knits</a></li>
-                        <li><a class="menu_category_element" href="#">T-Shirts</a></li>
-                        <li><a class="menu_category_element" href="#">Tanks</a></li>
-                    </ul>
-                </div>
+                <a class="box_header_product_menu_category" href="#">
+                    <div class="product_menu_category">
+                        <div class="product_menu_category_minibox_left"></div>
+                        <h3 class="header_product_menu_category">brand</h3>
+                        <i class="fa-caret-down"></i>
+                    </div>
+                </a>
+                <a class="box_header_product_menu_category" href="#">
+                    <div class="product_menu_category">
+                        <div class="product_menu_category_minibox_left"></div>
+                        <h3 class="header_product_menu_category">Designer</h3>
+                        <i class="fa-caret-down"></i>
+                    </div>
+                </a>
             </div>
             <div class="product_catalog">
                 <div class="product_catalog_filter">
+                    <div class="product_catalog_filter_top">
+                        <div class="product_catalog_filter_top_box">
+                            <p class="product_catalog_filter_top_box_title">Trending now</p>
+                            <ul class="trending_now_list">
+                                <li><a href="#" class="trending_now">Bohemian</a></li>
+                                <li><a href="#" class="trending_now">Floral</a></li>
+                                <li><a href="#" class="trending_now_end">Lace</a></li>
+                                <li><a href="#" class="trending_now">Floral</a></li>
+                                <li><a href="#" class="trending_now">Lace</a></li>
+                                <li><a href="#" class="trending_now_end">Bohemian</a></li>
+                            </ul>
+                        </div>
+                        <div class="product_catalog_filter_top_box">
+                            <p class="product_catalog_filter_top_box_title">Size</p>
+                            <label class="label" for="XXS">
+                                <input id="XXS" type="checkbox"> XXS</label>
+                            <label class="label" for="XS">
+                                <input id="XS" type="checkbox"> XS</label>
+                            <label class="label" for="S">
+                                <input id="S" type="checkbox"> S</label>
+                            <label class="label" for="M">
+                                <input id="M" type="checkbox"> M</label><br>
+                            <label class="label" for="L">
+                                <input id="L" type="checkbox"> L</label>
+                            <label class="label" for="XL">
+                                <input id="XL" type="checkbox"> XL</label>
+                            <label class="label" for="XXL">
+                                <input id="XXL" type="checkbox"> XXL</label>
+                        </div>
+                        <div class="product_catalog_filter_top_box">
+                            <p class="product_catalog_filter_top_box_title_end">PRICE</p>
+                            <input type="range" class="form-range" min="0" max="100" id="customRange2">
+
+                        </div>
+                    </div>
+                    <div class="product_catalog_filter_bottom">
+                        <input class="button_sort_by" type="button" value="Sort By">
+                        <input class="button_name" type="button" value="Name">
+                        <input class="button_show" type="button" value="Show">
+                        <input class="button_date" type="button" value="09">
+                    </div>
                 </div>
-                <div class="product_catalog_cards"></div>
+                <div class="product_catalog_cards">
+                    <div class="box_card">
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_2.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_3.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_4.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_5.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_6.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_7.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_8.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" style="width: 261px; height: 280px;"
+                                src="image/Layer_9.png" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                        <div class="top_product_card"><img class="image_card" src="image/Layer_44.jpg" alt="product">
+                            <div class="add_box">
+                                <a class="link_add" href="#">
+                                    <div class="link_add_box">
+                                        <img class="icon_add" src="image/Forma_1_copy.svg" alt="icon_add">
+                                        <p class="text_add" href="#">Add to Cart</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="name_card">Mango People T-shirt</p>
+                            <p class="price_card">$52.00</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
